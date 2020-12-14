@@ -44,7 +44,7 @@ function setup() {
   
   ground = createSprite(width/2,height -30,width,20);
   ground.addImage("ground",groundImage);
-  ground.x = ground.width /2;
+  ground.x = width /2;
   ground.velocityX = -(6 + 3*score/100);
   
   gameOver = createSprite(width/2,height/2);
